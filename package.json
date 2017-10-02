@@ -1,0 +1,20 @@
+{
+  "name": "generator-android-mvp",
+  "version": "1.0.0",
+  "description": "A simple android MVP architecture creator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "app"
+  ],
+  "author": "vinayagasundar",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.1.0",
+    "mkdirp": "^0.5.1",
+    "yeoman-generator": "^2.0.0",
+    "yosay": "^2.0.1"
+  }
+}
