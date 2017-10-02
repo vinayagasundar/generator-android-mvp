@@ -16,5 +16,14 @@
     "mkdirp": "^0.5.1",
     "yeoman-generator": "^2.0.0",
     "yosay": "^2.0.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinayagasundar/generator-android-mvp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vinayagasundar/generator-android-mvp/issues"
+  },
+  "homepage": "https://github.com/vinayagasundar/generator-android-mvp#readme"
 }
