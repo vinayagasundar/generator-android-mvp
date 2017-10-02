@@ -67,7 +67,7 @@ module.exports = class extends Generator {
     this.fs.copy(appPath + 'gradle.properties', 'gradle.properties');
     this.fs.copy(appPath + 'gradlew', 'gradlew');
     this.fs.copy(appPath + 'gradlew.bat', 'gradlew.bat');
-    this.fs.copy(appPath + 'dependencies.gradle', 'app/dependencies.gradle');
+    this.fs.copy(appPath + 'dependencies.gradle', 'dependencies.gradle');
     this.fs.copy(appPath + 'settings.gradle', 'settings.gradle');
     this.fs.copy(appPath + 'app/gitignore', 'app/.gitignore');
     this.fs.copy(appPath + 'app/proguard-rules.pro', 'app/proguard-rules.pro');
@@ -82,6 +82,7 @@ module.exports = class extends Generator {
     this.fs.copyTpl(appPath + 'app/src/androidTest/java/io', 'app/src/androidTest/java/' + packageDir + '/', this.props);
     this.fs.copyTpl(appPath + 'app/src/main/java/io', 'app/src/main/java/' + packageDir + '/', this.props);
     this.fs.copyTpl(appPath + 'app/src/test/java/io', 'app/src/test/java/' + packageDir + '/', this.props);
+    this.fs.copyTpl(appPath + 'app/src/main/AndroidManifest.xml', 'app/src/main/AndroidManifest.xml', this.props);
 
 
   }
